@@ -1,0 +1,33 @@
+<html>
+  <head> </head>
+  <body style="text-align: center">
+    <div
+      style="
+        position: absolute;
+        left: 450px;
+        top: 150px;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 230px;
+        width: 500px;
+      "
+    >
+      <form>
+        <h1 style="margin-top: 35px">Vote</h1>
+        <label>Student ID: </label>
+        <input id="studentID" name="studentID" value="" />
+        <table style="position: absolute; left: 100px" id="candidates">
+          
+        </table>
+        <input
+          style="height: 25px; width: 80px"
+          type="button"
+          onclick="vote()"
+          id="submit"
+          value="Submit"
+        />
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
